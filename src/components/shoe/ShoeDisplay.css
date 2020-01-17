@@ -2,3 +2,8 @@
     width: 200px;
     height: 200px
 }
+
+.shoe-card{
+    max-width: 250px;
+    /* max-height: 200px; */
+}

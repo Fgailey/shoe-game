@@ -16,7 +16,7 @@ class App extends Component{
     return (
       <div>
         <Navbar />
-        <div class="card-deck">
+        <div className="card-deck">
 
         {this.state.shoes.map(shoe => 
         <ShoeDisplay 

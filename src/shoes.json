@@ -4,7 +4,7 @@
         "name": "Bradley's",
         "price": 79.99,
         "colors": ["Brown", "Grey", "Black", "Tan"],
-        "image":"/assets/images/shoes/shoe-1.jpg"
+        "image":"/assets/images/shoes/shoe-2.webp"
     },
     {
         "id": 1,
