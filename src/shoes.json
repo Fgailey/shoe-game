@@ -1,0 +1,30 @@
+[
+    {
+        "id": 0,
+        "name": "Bradley's",
+        "price": 79.99,
+        "colors": ["Brown", "Grey", "Black", "Tan"],
+        "image":"/assets/images/shoes/shoe-1.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Brody's",
+        "price": 69.69,
+        "colors": ["Brown", "Black", "Tan"],
+        "image":"/assets/images/shoes/shoe-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Thabani",
+        "price": 59.99,
+        "colors": ["Brown", "Blue", "Black", "Tan"],
+        "image":"/assets/images/shoes/shoe-1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Gibela",
+        "price": 99.99,
+        "colors": ["Brown", "Grey", "Black", "Tan"],
+        "image":"/assets/images/shoes/shoe-1.jpg"
+    }
+]
