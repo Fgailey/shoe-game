@@ -1,36 +1,30 @@
 import React, { Component } from 'react';
 import './App.css';
-import ShoeDisplay from './components/shoe/ShoeDisplay';
-import ShoeSpec from './components/shoe/ShoeSpecs';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from './components/navbar/Navbar';
-import shoes from './shoes.json'
+
+import Store from './pages/Store'
+import Home from './pages/Home'
 
 class App extends Component{
 
-  state = {
-    shoes
-  };
+  // state = {
+  //   shoes
+  // };
 
 
   render(){
     return (
-      <div>
-        <Navbar />
-        <div className="card-deck">
-
-        {this.state.shoes.map(shoe => 
-        <ShoeDisplay 
-        key={shoe.id}
-        id={shoe.id}
-        name={shoe.name}
-        price={shoe.price}
-        colors={shoe.colors}
-        image={shoe.image}
-        />
-        )}
+      <Router>
+        <div>
+          <Navbar />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/store" component={Store} />
+          </Switch>
         </div>
-        <ShoeSpec />
-      </div>
+      </Router>
+      
     );
   }
 }
